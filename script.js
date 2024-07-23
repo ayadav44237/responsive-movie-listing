@@ -12,7 +12,7 @@ const movies = [
         cast: 'Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page'
     },
     {
-        title: 'The Dark Knight',
+        title: 'The_Dark_Knight',
         poster: 'Assests/The Dark knight.jpg',
         description: 'When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.',
         director: 'Christopher Nolan',
@@ -34,7 +34,7 @@ const movies = [
         cast: 'Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong'
     },
     {
-        title: 'The Matrix',
+        title: 'The_Matrix',
         poster: 'Assests/The Matrix.jpg',
         description: 'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.',
         director: 'Lana Wachowski, Lilly Wachowski',
@@ -45,7 +45,7 @@ const movies = [
         cast: 'Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss'
     },
     {
-        title: 'Pulp Fiction',
+        title: 'Pulp_Fiction',
         poster: 'Assests/Pulp Fiction.jpg',
         description: 'The lives of two mob hitmen, a boxer, a gangster’s wife, and a pair of diner bandits intertwine in four tales of violence and redemption.',
         director: 'Quentin Tarantino',
