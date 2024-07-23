@@ -75,7 +75,7 @@ function displayMovies(filteredMovies) {
         movieCard.innerHTML = `
             <img src="${movie.poster}" alt="${movie.title}">
             <h3>${movie.title}</h3>
-            <p>${movie.description}</p>
+            <p >${movie.description}</p>
         `;
         movieCard.addEventListener('click', () => openModal(movie));
         movieList.appendChild(movieCard);
