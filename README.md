@@ -19,4 +19,5 @@ This is a responsive movie listing application created using HTML, CSS, and Java
 ## Installation
 
 1. Clone the repository:
-   ```sh Git Repo:-https://github.com/ayadav44237/responsive-movie-listing
+   ```sh
+   Git Repo:-https://github.com/ayadav44237/responsive-movie-listing
