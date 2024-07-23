@@ -1,31 +1,4 @@
-// const movies = [
-//     {
-//         title: 'Inception',
-//         poster: 'https://via.placeholder.com/150',
-//         description: 'A thief who steals corporate secrets through the use of dream-sharing technology.'
-//     },
-//     {
-//         title: 'The Dark Knight',
-//         poster: 'https://via.placeholder.com/150',
-//         description: 'When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.'
-//     },
-//     {
-//         title: 'Interstellar',
-//         poster: 'https://via.placeholder.com/150',
-//         description: 'A team of explorers travel through a wormhole in space in an attempt to ensure humanity\'s survival.'
-//     },
-//     {
-//         title: 'Parasite',
-//         poster: 'https://via.placeholder.com/150',
-//         description: 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.'
-//     },
-//     {
-//         title: 'The Matrix',
-//         poster: 'https://via.placeholder.com/150',
-//         description: 'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.'
-//     }
-    
-// ];
+
 const movies = [
     {
         title: 'Inception',
@@ -143,5 +116,4 @@ window.addEventListener('click', (e) => {
     }
 });
 
-// Initial display of movies
 displayMovies(movies);

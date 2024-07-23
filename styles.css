@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 
 .container {
     padding: 20px;
-    max-width: 1200px; /* Adjusted max-width for larger screens */
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ h1 {
 
 .movie-list {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Default to 1 column for mobile */
+    grid-template-columns: repeat(1, 1fr); 
     gap: 20px;
 }
 
@@ -40,10 +40,10 @@ h1 {
 }
 
 .movie-card img {
-    width: 100%; /* Ensures the image takes up full width of its container */
-    max-width: 150px; /* Sets a maximum width */
-    height: 225px; /* Sets a fixed height */
-    object-fit: cover; /* Ensures the image covers the entire area, cropping if necessary */
+    width: 100%; 
+    max-width: 150px; 
+    height: 225px;
+    object-fit: cover; 
     border-radius: 5px;
     display: block;
     margin: 0 auto;
@@ -66,6 +66,7 @@ h1 {
     left: 0;
     top: 0;
     width: 100%;
+    overflow: hidden;
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
@@ -73,12 +74,20 @@ h1 {
 
 .modal-content {
     background-color: #fff;
-    margin: 10% auto;
     padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border: 1px solid #888;
     width: 80%;
     max-width: 500px;
     border-radius: 5px;
+    overflow: hidden; 
+    max-height: 80vh;
+}
+
+.movie-details {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,15 +95,14 @@ h1 {
 
 .modal-content img {
     display: block;
-    width: 150px; /* Fixed width for the modal image */
-    height: 225px; /* Fixed height for the modal image */
-    object-fit: cover; /* Ensure the image covers the entire area */
-    border-radius: 5px;
-    margin: 0 auto; /* Centers the image horizontally */
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    margin: 0 auto; 
 }
 
 .modal-content .details {
-    text-align: left; /* Ensures text content is left-aligned */
+    text-align: left;
     width: 100%;
 }
 
@@ -112,7 +120,6 @@ h1 {
     cursor: pointer;
 }
 
-/* Media Queries for Responsiveness */
 @media (min-width: 600px) {
     .movie-list {
         grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
